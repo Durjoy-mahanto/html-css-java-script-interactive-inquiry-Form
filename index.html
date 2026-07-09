@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive Inquiry Form</title>
+</head>
+<body>
+<div class="form-container">
+
+    <div class="info-panel">
+        <h1>Let's Talk</h1>
+
+        <p>
+            Have questions about our services?
+            Fill out the inquiry form and our team will contact you shortly.
+        </p>
+
+        <div class="features">
+            <div>✓ Quick Response</div>
+            <div>✓ Professional Support</div>
+            <div>✓ Free Consultation</div>
+            <div>✓ 24/7 Assistance</div>
+        </div>
+    </div>
+
+    <div class="form-panel">
+
+        <h2>Inquiry Form</h2>
+
+        <form id="inquiryForm">
+
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label>Full Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label>Email Address</label>
+            </div>
+
+            <div class="input-group">
+                <input type="tel" id="phone" required>
+                <label>Phone Number</label>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="subject" required>
+                <label>Subject</label>
+            </div>
+
+            <div class="input-group">
+                <input id="messageBox" required></input>
+                <label>Your Message</label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Submit Inquiry →
+            </button>
+
+            <div id="message"></div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
